@@ -15,10 +15,10 @@
 
 <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-0">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary p-0 fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand p-0" href="#">
-                <img src="assets/imgs/WrathLogo.png" alt="Logo World of Warcraft" width="100" height="50">
+                <img src="assets/imgs/WrathLogo.png" alt="Logo World of Warcraft" width="120" height="60">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -26,36 +26,235 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
+                <ul class="navbar-nav mb-auto mb-2 mb-lg-0">
+                    <li class="nav-item px-4">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Novidades</a>
+                    <li class="nav-item px-4">
+                        <a class="nav-link active" href="#novidades" aria-current="page" href="#">Novidades</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Masmorras</a>
+                    <li class="nav-item px-4">
+                        <a class="nav-link active" href="#masmorras" aria-current="page" href="#">Masmorras</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Raídes</a>
+                    <li class="nav-item px-4">
+                        <a class="nav-link active" href="#raides" aria-current="page" href="#">Raides</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Saiba Mais</a>
+                    <li class="nav-item px-4">
+                        <a class="nav-link active" href="#saiba" aria-current="page" href="#">Saiba Mais</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!--/Navbar-->
+
     <!--Video-->
-    <div class="video-bg">
-        <div class="container-fluid py-5">
-            <div class="position-absolute top-50 start-50 translate-middle">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/BCr7y4SLhck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div id="inicio">
+        <div class="video-bg container-fluid py-5">
+            <div class="embed-responsive position-absolute top-50 start-50 translate-middle">
+                <iframe class="embed-responsive-item" width="853" height="480"
+                    src="https://www.youtube.com/embed/BCr7y4SLhck" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </div>
         </div>
     </div>
     <!--/Video-->
+
+
+    <div class="container">
+        <!--Novidades-->
+        <div id="novidades">
+            <div class="p-5">
+                <h1 class="text-center">Novidades</h1>
+            </div>
+            <div class="row mt-1">
+                <div class="col-md-6 mt-5 center-block text-center">
+                    <h3>Rise as the Death Knight</h3>
+                    <p>
+                        Master the necromantic powers of the Death Knight - World of Warcraft's first Hero Class. Create
+                        a new Death Knight character with a starting level of 55 and break the chains of Lich King to
+                        forge your own destiny.
+                    </p>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="assets/imgs/dk_screen_01.jpg" alt="Captura de tela do jogo" width="100%" height="100%">
+                </div>
+            </div>
+
+            <div class="row mt-1">
+                <div class="col-md-6">
+                    <img src="assets/imgs/db-screenshot.webp" alt="Captura de tela do jogo" width="100%" height="100%">
+                </div>
+
+                <div class="col-md-6 mt-5 center-block text-center">
+                    <h3>Battle to Level 80</h3>
+                    <p>
+                        Power your way through new quests and dungeons as you seize ever greater abilities. Assault the
+                        terrifying Wrathgate, war in Lake Wintergrasp, uncover the secrets of Dalaran reborn, and much
+                        more.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row mt-1">
+                <div class="col-md-6 mt-5 center-block text-center">
+                    <h3>Brave the Lich King's Domain</h3>
+                    <p>
+                        Discover the harsh, icy continent of Northrend, the bleak heart of Lich King's empire of
+                        undeath.
+                    </p>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="assets/imgs/wow-icc.jpg" alt="Captura de tela do jogo" width="100%" height="100%">
+                </div>
+            </div>
+
+            <div class="row mt-1">
+                <div class="col-md-6">
+                    <img src="assets/imgs/wintergrasp.jpg" alt="Captura de tela do jogo" width="100%" height="100%">
+                </div>
+
+                <div class="col-md-6 mt-5 center-block text-center">
+                    <h3>Lay Siege to Your Enemies</h3>
+                    <p>
+                        Command mighty siege engines to bombard your enemies and lay waste to destructible buildings in
+                        your path.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!--/Novidades-->
+
+        <!--Masmorras-->
+        <div id="masmorras">
+            <div class="p-5">
+                <h1 class="text-center">Masmorras</h1>
+            </div>
+
+
+        </div>
+        <!--/Masmorras-->
+
+        <!--Raides-->
+        <div id="raides">
+            <div class="p-5">
+                <h1 class="text-center">Raides</h1>
+            </div>
+            <div>
+                <div class="row mt-3">
+                    <div class="col-sm-4">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img src="assets/imgs/raids/Button-Vault_of_Archavon.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5>Vault of Archavon</h5>
+                                <p class="card-text">Wintergrasp Fortress, Wintergrasp</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img src="assets/imgs/raids/Button-Naxxramas.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5>Naxxramas</h5>
+                                <p class="card-text">The Carrion Fields, Dragonblight</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img src="assets/imgs/raids/Button-The_Obsidian_Sanctum.webp" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5>The Obsidian Sanctum</h5>
+                                <p class="card-text">Chamber of Aspects, Dragonblight</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-3 justify-content-center">
+                    <div class="col-sm-4">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img src="assets/imgs/raids/Button-The_Eye_of_Eternity.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5>The Eye of Eternity</h5>
+                                <p class="card-text">The Nexus, Coldarra</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img src="assets/imgs/raids/Button-Ulduar.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5>Ulduar</h5>
+                                <p class="card-text">Ulduar, Storm Peaks</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img src="assets/imgs/raids/Button-Trial_of_the_Crusader.webp" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5>Trial of the Crusader</h5>
+                                <p class="card-text">Crusaders' Coliseum, Icecrown</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-3 justify-content-center">
+                    <div class="col-sm-4">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img src="assets/imgs/raids/Button-Onyxia's_Lair.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5>Onyxia's Lair</h5>
+                                <p class="card-text">Dustwallow Marsh</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img src="assets/imgs/raids/Button-Icecrown_Citadel.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5>Icecrown Citadel</h5>
+                                <p class="card-text">Icecrown Citadel, Icecrown Glacier</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="card mx-auto" style="width: 18rem;">
+                            <img src="assets/imgs/raids/Button-The_Ruby_Sanctum.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5>The Ruby Sanctum</h5>
+                                <p class="card-text">Chamber of Aspects, Dragonblight</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--/Raides-->
+
+        <!--Saiba mais-->
+        <div id="saiba">
+            <div class="p-5">
+                <h1 class="text-center">Saiba Mais</h1>
+            </div>
+        </div>
+        <!--/Saiba mais-->
+    </div>
+
     <!--Scripts com todos os plugins e dependencias do Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
