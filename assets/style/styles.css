@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Cinzel:wght@400;500;600&display=swap');
+
 html,
 body,
 header,
 #inicio{
     height: 100%;
+    font-family: 'Carrois Gothic SC', sans-serif;
 }
 
 #inicio{
@@ -13,4 +16,35 @@ header,
 	background-position: center;
 	
 	color: #ffffff
+}
+
+.sections-bg{
+    background: url('../imgs/section-bg.png') no-repeat;
+    background-position: center;
+}
+
+.img-zoom-hover{
+    height: 100%;
+    overflow: hidden;
+}
+
+.img-zoom-hover img{
+    transition: transform .8s ease;
+}
+
+.img-zoom-hover:hover img{
+    transform: scale(1.3);
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Cinzel', serif;
+}
+
+.color-titles{
+    color: #cfbb00;
+    text-shadow: 0 0 5px #000000;
+}
+
+.color-footer{
+    color: #3c55e4;
 }
