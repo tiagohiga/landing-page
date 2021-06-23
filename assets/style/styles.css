@@ -18,11 +18,6 @@ header,
 	color: #ffffff
 }
 
-.sections-bg{
-    background: url('../imgs/section-bg.png') no-repeat;
-    background-position: center;
-}
-
 .img-zoom-hover{
     height: 100%;
     overflow: hidden;
@@ -47,4 +42,30 @@ h1, h2, h3, h4, h5{
 
 .color-footer{
     color: #3c55e4;
+}
+
+.bg-body{
+    background: url('../imgs/cover-bottom-full.png') no-repeat center bottom fixed;
+    background-size: cover;
+}
+
+.bg-footer{
+    background: url('../imgs/footer.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.centralizar-txt{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-txt{
+    position: relative;
+    text-align: center;
+}
+
+.container-opacity{
+    background-color: rgba(30, 30, 30, 0.8)
 }
